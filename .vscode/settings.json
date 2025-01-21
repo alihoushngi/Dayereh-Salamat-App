@@ -1,0 +1,7 @@
+{
+  "cSpell.words": ["Enamad", "glassmorphism", "Spad"],
+  "editor.codeActionsOnSave": {
+    "source.sortImports": "always",
+    "source.organizeImports": "always"
+  }
+}

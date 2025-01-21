@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Samim;
+  font-weight: 500;
+  src: url('/public/fonts/Samim.ttf'), url('/public/fonts/Samim.woff'), url('/public/fonts/Samim.woff2'), url('/public/fonts/Samim.eot'), url('/public/fonts/Samim.svg');
+}
+
+@font-face {
+  font-family: Samim;
+  font-weight: bold;
+  src: url('/public/fonts/Samim-Bold-FD.ttf'), url('/public/fonts/Samim-Bold-FD.woff'), url('/public/fonts/Samim-Bold-FD.woff2'), url('/public/fonts/Samim-Bold-FD.eot'),
+    url('/public/fonts/Samim-Bold-FD.svg');
+}
+
+body {
+  font-family: Samim;
+}

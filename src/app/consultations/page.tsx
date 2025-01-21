@@ -1,9 +1,11 @@
 import DashboardLayout from '@/layouts/DashboardLayout/DashboardLayout'
 
-export default function Home() {
+const consultations = () => {
   return (
-    <DashboardLayout withHeader withFooter>
-      hello
+    <DashboardLayout withFooter withHeader>
+      .
     </DashboardLayout>
   )
 }
+
+export default consultations
