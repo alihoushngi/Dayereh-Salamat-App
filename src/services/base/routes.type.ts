@@ -5,11 +5,11 @@ interface Route {
 }
 
 // Interface for a collection of routes
-interface SliderRoutes {
-  slider: Route
+interface AuthRoutes {
+  login: Route
 }
 
 // Main interface for the full route object
 export interface APIRoutes {
-  slider: SliderRoutes
+  auth: AuthRoutes
 }

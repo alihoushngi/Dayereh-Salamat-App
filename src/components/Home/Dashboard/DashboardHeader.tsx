@@ -3,7 +3,7 @@ import Menu from '../../Shared/Menu/Menu'
 
 const DashboardHeader = () => {
   return (
-    <div className="w-full flex justify-between items-end py-3">
+    <div className="flex w-full items-end justify-between py-3 max-md:items-center">
       <Menu />
       <Profile />
     </div>

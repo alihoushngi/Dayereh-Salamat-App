@@ -2,8 +2,8 @@ import { APIRoutes } from './routes.type'
 
 export const getAPIRoute = (): APIRoutes => {
   const routes: APIRoutes = {
-    slider: {
-      slider: { path: 'slider' },
+    auth: {
+      login: { path: 'Otp' },
     },
   }
   return routes

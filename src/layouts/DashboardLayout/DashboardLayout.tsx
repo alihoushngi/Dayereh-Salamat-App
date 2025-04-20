@@ -10,7 +10,7 @@ interface IDashboardLayoutProps {
 
 const DashboardLayout: FC<IDashboardLayoutProps> = ({ children, withFooter, withHeader }) => {
   return (
-    <section className="flex flex-col items-center h-full w-full py-1 px-8">
+    <section className="m-auto flex h-full w-full max-w-[1440px] flex-col items-center justify-center py-1 max-md:px-2">
       {withHeader && <DashboardHeader />}
 
       <main className={`${withHeader && 'mt-4'} mt-2`}>
