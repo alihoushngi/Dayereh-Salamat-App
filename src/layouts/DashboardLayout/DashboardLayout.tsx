@@ -13,7 +13,7 @@ const DashboardLayout: FC<IDashboardLayoutProps> = ({ children, withFooter, with
     <section className="m-auto flex h-full w-full max-w-[1440px] flex-col items-center justify-center py-1 max-md:px-2">
       {withHeader && <DashboardHeader />}
 
-      <main className={`${withHeader && 'mt-4'} mt-2 w-full`}>
+      <main className={`${withHeader && 'mt-4'} mt-1 w-full`}>
         <div className="w-full">{children}</div>
       </main>
 

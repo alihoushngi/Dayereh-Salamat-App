@@ -19,9 +19,10 @@ export default {
           dark: '#C9252C',
         },
         blue: {
+          extraLight: '#ddecee',
           light: '#72C3CB',
           default: '#006A84',
-          dark: '#004B62',
+          dark: '#0e4b63',
         },
         base: {
           '90': '#414042',

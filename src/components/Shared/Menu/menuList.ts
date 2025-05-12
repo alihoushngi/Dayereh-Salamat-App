@@ -3,6 +3,7 @@ export const desktopMenuList = [
   { id: 2, name: 'مشاوره با پزشک', slug: '/consultation' },
   { id: 3, name: 'مجله سلامتی', slug: '/magazine' },
   { id: 4, name: 'تالار گفتگو', slug: '/discussion' },
+  { id: 5, name: 'پزشکان دایره سلامت', slug: '/doctors' },
 ]
 
 export const mobileMenuListFirst = [

@@ -4,7 +4,7 @@ import { ProfileComponentsProps } from './ProfileTypes'
 
 const ProfileDesktop = ({ isAuthenticated }: ProfileComponentsProps) => {
   return (
-    <div className="flex items-center justify-center gap-2 rounded-full bg-blue-dark px-1 py-1 ps-2 text-white transition-all duration-200 max-md:hidden">
+    <div className="flex items-center justify-center gap-2 rounded-full bg-blue-dark px-1 py-1 ps-4 text-white transition-all duration-200 max-md:hidden">
       <div className="text-sm">
         {isAuthenticated ? (
           <Link href="/profile">نام کاربری</Link>
